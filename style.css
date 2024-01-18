@@ -84,3 +84,12 @@ nav label i{
 input{
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    nav{
+        width: 300px;
+    } 
+    nav label{
+        font-size: 11px;
+    }
+}
