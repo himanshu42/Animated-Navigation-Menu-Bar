@@ -18,7 +18,7 @@ body{
 
 nav{
     position: relative;
-    width: 600px;
+    width: 100vw;
     height: 60px;
     border-radius: 5px;
     background: #fff;
@@ -85,10 +85,7 @@ input{
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
-    nav{
-        width: 300px;
-    } 
+@media only screen and (max-width: 429px) { 
     nav label{
         font-size: 11px;
     }
